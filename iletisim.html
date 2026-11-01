@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İletişim // Terminal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="karanlik-tema">
+    <canvas id="bg-canvas"></canvas>
+    <div class="layout">
+        <nav class="navbar">
+            <div class="logo">SİBER // PORTAL</div>
+            <div class="nav-links">
+                <a href="index.html">Ana Sayfa</a>
+                <a href="iletisim.html" class="active">İletişim</a>
+            </div>
+        </nav>
+        <main class="konteyner">
+            <h1>> SİNYAL_GONDER</h1>
+            <p class="subtitle">Şifreli iletişim kanalı başlatıldı.</p>
+            <form onsubmit="event.preventDefault(); alert('Sinyal iletildi!');">
+                <input type="text" placeholder="Gönderici Kimliği (E-posta)" required>
+                <textarea rows="5" placeholder="Mesaj içeriğini giriniz..." required></textarea>
+                <button type="submit">TRANSMIT</button>
+            </form>
+        </main>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
