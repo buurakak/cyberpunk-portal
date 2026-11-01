@@ -1,0 +1,12 @@
+# Geçici ve sistem dosyaları
+*.log
+.DS_Store
+Thumbs.db
+
+# IDE ve Editör klasörleri
+.vscode/
+.idea/
+
+# Bağımlılıklar (gelecekte eklenirse)
+node_modules/
+dist/
